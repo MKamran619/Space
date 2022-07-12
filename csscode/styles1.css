@@ -1,0 +1,242 @@
+body{
+  background-image: url(one.jpg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo-img{
+  display: inline-block;
+  width:300px;
+position: absolute;
+padding-top:4%;
+padding-left: 5%;
+}
+.line{
+/* display: inline-block; */
+ /* border-top: dotted; */
+position: absolute;
+left:12%;
+top: 12%;
+line-height: 4px;
+width:30%;
+opacity: 0.1;
+
+}
+.top{
+  text-align: right;
+  background-color: #3F4E4F;
+  height: 50px;
+  padding-top: 2% ;
+  margin-top: 3%;
+  padding-right: 5%;
+   opacity: 0.3;
+   width:50%;
+   display: inline-block;
+   position: absolute;
+   right: 0;
+}
+.navbar {
+  width: 50%;
+  height: 50px;
+  padding-top: 2% ;
+  padding-left: 5%;
+  margin-top: 3%;
+  padding-right: 5%;
+  background-color: #3F4E4F;
+  opacity: 0.5;
+  overflow: auto;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.top1{
+  color: #fff;
+  padding-right: 3%;
+  margin-top: 1%;
+  font-size: 1.5rem;
+    opacity: 1;
+     text-decoration:none;
+
+}
+.top1:active{
+  text-decoration: underline;
+
+}
+.header{
+position: absolute;
+left: 15%;
+top: 30%;
+color: #fff;
+width: 100%;
+
+display: block;
+}
+.middle{
+  margin: 15%;
+  text-align: left;
+  width:25%;
+  line-height: 2;
+  color: #fff;
+  display: inline-block;
+}
+p, h2, h3{
+  opacity: 0.5;
+}
+
+
+.space{
+/* font-size: 6rem; */
+padding: 0 1%;
+}
+.explore{
+
+background-color: #fff;
+border-radius: 50%;
+width:175px;
+height:175px;
+display: inline-block;
+text-align: center;
+position: absolute;
+top: 55%;
+right: 15%;
+
+
+}
+.explore-h{
+margin-top: 40%;
+
+}
+#destination{
+  background-image: url(destination.jpg);
+}
+.destination{
+padding: 15% 2% 15% 15%;
+color:#fff;
+font-size: 1.3rem;
+display: inline-block;
+
+}
+.moon-img{
+  width:60%;
+  margin-left: 13%;
+  margin-top: 3%;
+  display: inline-block;
+}
+.top2{
+  display: inline-block;
+  width:30%;
+  position: absolute;
+  margin-top: 20%;
+
+}
+.about-destination{
+color: #fff;
+width:30%;
+position: absolute;
+right:19%;
+top:50%;
+
+line-height: 2;
+
+}
+.destination-heading{
+font-size: 3rem;
+}
+
+.destination-dis{
+  display: inline-block;
+  margin-right: 3%;
+}
+.destination-time{
+  display: inline-block;
+  float: right;
+
+
+}
+#crew{
+  background-image: url(crew.jpg);
+  color: #fff;
+}
+.crew-details{
+padding: 10% 15% 0 ;
+width:30%;
+display: inline-block;
+}
+.crew-img{
+display: inline-block;
+position: absolute;
+top:30%;
+right: 15%;
+ margin-bottom: 0;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 15% 2px 15%;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.1;
+}
+
+.step:hover{
+  background-color: #fff;
+  opacity: 1;
+}
+.step:active{
+  background-color: #fff;
+  opacity: 1;
+}
+
+.all-step{
+  margin-right:75%;
+  margin-left: 15%;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+#technology{
+  background-image: url(technology.jpg)
+}
+#technology .step {
+  height: 60px;
+  width: 60px;
+  margin: 15% 2px 15%;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.3;
+  text-align: center;
+}
+#technology .step:active{
+  background-color: #fff;
+
+}
+#technology .all-step{
+
+  font-size: 3rem;
+  margin-right:75%;
+  margin-left: 15%;
+  padding-top: 5%;
+  display: inline-block;
+  position: absolute;
+  top:30%;
+}
+#technology .middle{
+  padding-left: 10%;
+  padding-top: 7%;
+  line-height: 1.3;
+
+}
+  h2{
+    padding-left: 0;
+  }
+  .technology-img{
+    position: absolute;
+    right: 0;
+    margin-top:16%;
+
+  }
